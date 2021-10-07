@@ -47,7 +47,7 @@
                             We focus on teaching our student the fundamental of the latest 
                             and greatest technology to prepare them for thier first develoepr role 
                         </p>
-                        <button class="btn btn-primary btn-lg">Start The Enrollment</button>
+                        <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll ">Start The Enrollment</button>
                     </div>
                     <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
                 </div>
@@ -249,8 +249,8 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="card bg-light">
                                 <div class="card-body text-center">
-                                    <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
-                                    <h3 class="card-title mb-3">John Doe </h3>
+                                    <img src="https://randomuser.me/api/portraits/women/11.jpg" class="rounded-circle mb-3" alt="">
+                                    <h3 class="card-title mb-3">Jen Doe </h3>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore itaque ullam. Repellendus, quaerat amet!</p>
                                     <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
                                     <a href=""><i class="bi bi-facebook  text-dark mx-1"></i></a>
@@ -262,8 +262,8 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="card bg-light">
                                 <div class="card-body text-center">
-                                    <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
-                                    <h3 class="card-title mb-3">John Doe </h3>
+                                    <img src="https://randomuser.me/api/portraits/men/12.jpg" class="rounded-circle mb-3" alt="">
+                                    <h3 class="card-title mb-3">steve smith </h3>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore itaque ullam. Repellendus, quaerat amet!</p>
                                     <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
                                     <a href=""><i class="bi bi-facebook  text-dark mx-1"></i></a>
@@ -275,8 +275,8 @@
                         <div class="col-md-6 col-lg-3">
                             <div class="card bg-light">
                                 <div class="card-body text-center">
-                                    <img src="https://randomuser.me/api/portraits/men/11.jpg" class="rounded-circle mb-3" alt="">
-                                    <h3 class="card-title mb-3">John Doe </h3>
+                                    <img src="https://randomuser.me/api/portraits/women/12.jpg" class="rounded-circle mb-3" alt="">
+                                    <h3 class="card-title mb-3">sara smith </h3>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tempore itaque ullam. Repellendus, quaerat amet!</p>
                                     <a href=""><i class="bi bi-twitter text-dark mx-1"></i></a>
                                     <a href=""><i class="bi bi-facebook  text-dark mx-1"></i></a>
@@ -289,6 +289,90 @@
                 </div>
             </section>
 
+            <!-- Contact and maps  -->
+            <div class="p-5">
+                <div class="container">
+                    <div class="row g-4">
+                        <div class="col-md">
+                            <h2 class="text-center mb-4">Contact info</h2>
+                            <ul class="list-group list-group-flush lead">
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Main Location:</span>New Delhi INDIA
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Office Location:</span>New Delhi INDIA
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Contact No.:</span>0000000000
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Creator Name:</span>New Delhi INDIA
+                                </li>
+                                <li class="list-group-item">
+                                    <span class="fw-bold">Email :</span>deepak000000.gmail.com
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- footer -->
+            <footer class="p-5 bg-dark text-white text-center position-relative">
+                <div class="container">
+                    <p class="lead">Copyright &copy; 2021 Frontend Bootcamp </p>
+                    <a href="" class="position-absolute bottom-0 end-0 p-5">
+                        <i class="bi bi-arrow-up-circle h1 "></i>
+                    </a>
+                </div>
+            </footer>
+
+            <!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill Out this form and we will get back to you</p>
+          <form action="">
+              <div class="mb-3">
+                    <label for="first-name" class="col-form-label">
+                        first name:
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+              </div>
+              <div class="mb-3">
+                    <label for="first-name" class="col-form-label">
+                        last name:
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+              </div>
+              <div class="mb-3">
+                    <label for="first-name" class="col-form-label">
+                        Mobile NO:
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+              </div>
+              <div class="mb-3">
+                    <label for="first-name" class="col-form-label">
+                        Email :
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+              </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
